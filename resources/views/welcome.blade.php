@@ -8,7 +8,7 @@
 </head>
 <body>
 
-    @livewire('hello-world')
+    @livewire('hello-world', ['name' => 'Honda'])
 
     @livewireScripts
 </body>
